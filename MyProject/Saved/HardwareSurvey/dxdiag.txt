@@ -1,17 +1,17 @@
 ------------------
 System Information
 ------------------
-Time of this report: 1/29/2016, 19:39:16
-       Machine name: WJ308-34
+Time of this report: 1/29/2016, 20:57:03
+       Machine name: WJ308-35
    Operating System: Windows 8.1 Pro 64-bit (6.3, Build 9600) (9600.winblue_r9.150322-1500)
            Language: English (Regional Setting: English)
 System Manufacturer: System manufacturer
        System Model: System Product Name
-               BIOS: BIOS Date: 11/09/12 12:19:35 Ver: 36.03
+               BIOS: BIOS Date: 02/05/10 19:13:52 Ver: 08.00.10
           Processor: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz (8 CPUs), ~3.4GHz
              Memory: 8192MB RAM
-Available OS Memory: 8160MB RAM
-          Page File: 4574MB used, 4864MB available
+Available OS Memory: 8168MB RAM
+          Page File: 4512MB used, 11847MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -58,7 +58,7 @@ Display Devices
       Monitor Model: Philips 244E
          Monitor Id: PHLC061
         Native Mode: 1920 x 1080(p) (60.000Hz)
-        Output Type: HDMI
+        Output Type: DVI
         Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
 Driver File Version: 9.18.0013.5286 (English)
      Driver Version: 9.18.13.5286
@@ -132,20 +132,20 @@ Hybrid Graphics GPU: Not Supported
 -------------
 Sound Devices
 -------------
-            Description: Philips 244E-1 (NVIDIA High Definition Audio)
+            Description: Speakers (Realtek High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0018&SUBSYS_10DE0101&REV_1001
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_10438410&REV_1003
         Manufacturer ID: 1
              Product ID: 100
                    Type: WDM
-            Driver Name: nvhda64v.sys
-         Driver Version: 1.03.0034.0003 (English)
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.7023 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 5/13/2015 01:52:35, 195912 bytes
+          Date and Size: 5/25/2015 09:23:18, 3591000 bytes
             Other Files: 
-        Driver Provider: NVIDIA Corporation
+        Driver Provider: Realtek Semiconductor Corp.
          HW Accel Level: Basic
               Cap Flags: 0xF1F
     Min/Max Sample Rate: 100, 200000
@@ -263,7 +263,7 @@ USB Devices
 | | 
 | +-+ Microsoft Hardware USB Mouse
 | | | Vendor/Product ID: 0x045E, 0x00CB
-| | | Location: Port_#0006.Hub_#0006
+| | | Location: Port_#0002.Hub_#0006
 | | | Matching Device ID: usb\vid_045e&pid_00cb
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 3/6/2014 04:24:15, 33280 bytes
@@ -296,7 +296,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 66.0 GB
+ Free Space: 57.6 GB
 Total Space: 220.0 GB
 File System: NTFS
       Model: WDC WD1002FAEX-00Y9A0
@@ -308,7 +308,7 @@ File System: NTFS
       Model: WDC WD1002FAEX-00Y9A0
 
       Drive: E:
-      Model: HL-DT-ST DVDRAM GH22NS70
+      Model: HL-DT-ST DVDRAM GH22NS70 ATA Device
      Driver: c:\windows\system32\drivers\cdrom.sys, 6.03.9600.16384 (English), 8/22/2013 03:46:35, 164352 bytes
 
 --------------
@@ -324,6 +324,10 @@ Device ID: PCI\VEN_8086&DEV_1C26&SUBSYS_844D1043&REV_05\3&11583659&1&E8
 Device ID: PCI\VEN_1B21&DEV_1042&SUBSYS_84881043&REV_00\4&1D1B3AB2&0&00E1
    Driver: C:\Windows\system32\DRIVERS\UCX01000.SYS, 6.03.9600.17393 (English), 10/7/2014 01:54:45, 189248 bytes
    Driver: C:\Windows\system32\DRIVERS\USBXHCI.SYS, 6.03.9600.17795 (English), 4/16/2015 01:17:07, 325464 bytes
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 3 - 1C14
+Device ID: PCI\VEN_8086&DEV_1C14&SUBSYS_844D1043&REV_B5\3&11583659&1&E2
+   Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
 
      Name: Intel(R) 82801 PCI Bridge - 244E
 Device ID: PCI\VEN_8086&DEV_244E&SUBSYS_844D1043&REV_B5\3&11583659&1&E6
@@ -414,10 +418,6 @@ Device ID: PCI\VEN_8086&DEV_1C12&SUBSYS_844D1043&REV_B5\3&11583659&1&E1
 Device ID: PCI\VEN_8086&DEV_1C1E&SUBSYS_844D1043&REV_B5\3&11583659&1&E7
    Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
 
-     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA AHCI Controller
-Device ID: PCI\VEN_8086&DEV_1C02&SUBSYS_844D1043&REV_05\3&11583659&1&FA
-   Driver: C:\Windows\system32\DRIVERS\iaStorA.sys, 12.08.0000.1016 (English), 8/7/2013 16:23:46, 644968 bytes
-
      Name: Standard SATA AHCI Controller
 Device ID: PCI\VEN_1B4B&DEV_9172&SUBSYS_84771043&REV_11\4&25EDE343&0&00E7
    Driver: C:\Windows\system32\DRIVERS\storahci.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:31, 107872 bytes
@@ -446,9 +446,23 @@ Device ID: PCI\VEN_8086&DEV_1C22&SUBSYS_844D1043&REV_05\3&11583659&1&FB
 Device ID: PCI\VEN_8086&DEV_1C18&SUBSYS_844D1043&REV_B5\3&11583659&1&E4
    Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
 
+     Name: Standard Dual Channel PCI IDE Controller
+Device ID: PCI\VEN_8086&DEV_1C08&SUBSYS_844D1043&REV_05\3&11583659&1&FD
+   Driver: C:\Windows\system32\DRIVERS\pciide.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:31, 14688 bytes
+   Driver: C:\Windows\system32\DRIVERS\pciidex.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:32, 48992 bytes
+   Driver: C:\Windows\system32\DRIVERS\atapi.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:41, 26464 bytes
+   Driver: C:\Windows\system32\DRIVERS\ataport.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:41, 199520 bytes
+
      Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 1 - 1C10
 Device ID: PCI\VEN_8086&DEV_1C10&SUBSYS_844D1043&REV_B5\3&11583659&1&E0
    Driver: C:\Windows\system32\DRIVERS\pci.sys, 6.03.9600.17238 (English), 7/24/2014 10:28:35, 280384 bytes
+
+     Name: Standard Dual Channel PCI IDE Controller
+Device ID: PCI\VEN_8086&DEV_1C00&SUBSYS_844D1043&REV_05\3&11583659&1&FA
+   Driver: C:\Windows\system32\DRIVERS\pciide.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:31, 14688 bytes
+   Driver: C:\Windows\system32\DRIVERS\pciidex.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:32, 48992 bytes
+   Driver: C:\Windows\system32\DRIVERS\atapi.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:41, 26464 bytes
+   Driver: C:\Windows\system32\DRIVERS\ataport.sys, 6.03.9600.16384 (English), 8/22/2013 07:43:41, 199520 bytes
 
      Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 4 - 1C16
 Device ID: PCI\VEN_8086&DEV_1C16&SUBSYS_844D1043&REV_B5\3&11583659&1&E3
